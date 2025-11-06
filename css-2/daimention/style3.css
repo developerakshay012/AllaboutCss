@@ -1,0 +1,18 @@
+.box{
+    border: 2px solid rgb(168, 216, 100);
+    background-image: radial-gradient(rgb(255, 196, 87),rgb(176, 250, 176));
+    box-shadow: 15px 15px 5px rgb(200, 239, 143) ;
+    max-height: 100px;
+    /* overflow: scroll; */
+
+}
+.box1{
+     margin: 20px;
+     min-height: 100px;
+     border: 1px solid black;
+}
+#divi{
+    height: 50px;
+    border: 1px solid black;
+    overflow: scroll;
+}

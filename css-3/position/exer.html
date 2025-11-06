@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text in All Corners and Center</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+     <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    height: 80%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ 
+.text {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-left {
+    top: 10px;
+    left: 10px;
+}
+
+.top-right {
+    top: 10px;
+    right: 10px;
+}
+
+.bottom-left {
+    bottom: 10px;
+    left: 10px;
+}
+
+.bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+     </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://imgs.search.brave.com/AZkKYOifhfns8OmMQcTUfP9YTKWXy4N2vwDbbzYEV9U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9i/L2I2L1BlbmNpbF9k/cmF3aW5nX29mX2Ff/Z2lybF9pbl9lY3N0/YXN5LmpwZw" alt="Image" class="image">
+        <div class="text top-left">Top Left</div>
+        <div class="text top-right">Top Right</div>
+        <div class="text bottom-left">Bottom Left</div>
+        <div class="text bottom-right">Bottom Right</div>
+        <div class="text center">Center</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.box{
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    /* background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(to right, rgb(166, 255, 0), blue);
+    background-image: linear-gradient(to left , red, blue); */
+    background-image: linear-gradient(to bottom right , rgb(94, 255, 0), blue , orange);
+    text-align: center;
+    /* align-items: center; */
+    background-image: linear-gradient(orange,white,green);
+}
+
+
+
+
+.box2{
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    background-image: radial-gradient(red,blue ,orange);
+    text-align: center;
+    background-image: radial-gradient(yellow 5%, orange 15% ,red 50%);
+}

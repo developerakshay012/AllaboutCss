@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: rgb(180, 223, 82);
+    height: 500px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(3 , 3fr) ;
+    grid-template-rows: repeat(4,1fr);
+    gap: 15px;
+}
+.box{
+    background: rgb(199, 165, 63);
+    border: 2px solid black;
+    /* height: 60px; */
+}
+#box1{
+   grid-column-start: 1;
+   grid-column-end: 3;
+}
+#box3{
+    grid-row-start: 3;
+    grid-row-end: 6;
+}

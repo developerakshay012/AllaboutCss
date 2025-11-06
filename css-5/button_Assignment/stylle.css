@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* background: yellow; */
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    background: white;
+    height: 45px;
+    width: 120px;
+  font-weight: 600;
+    font-size: 1.1rem;
+    background: red;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 5px 5px 8px 0 black;
+
+    /* Animantion */
+    
+
+    animation: Akshay 2s linear 1s forwards;
+
+
+}
+@keyframes Akshay{
+    0%{
+       width: 120px;
+       background: blue;
+       color: white;
+       cursor: pointer;
+    }
+    100%{
+        width: 130px;
+        background: rgb(28, 189, 187);
+        color: white;
+        cursor: pointer;
+    }
+}

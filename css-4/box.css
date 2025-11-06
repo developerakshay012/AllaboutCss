@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: rgb(184, 88, 9);
+    height: 500px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr 150px;
+    grid-template-rows: 30px 1fr 30px;
+    gap: 3px;
+}
+.box{
+    background: rgb(63, 199, 172);
+    border: 2px solid black;
+    /* height: 60px; */
+}
+#box4 ,#box1{
+   grid-column-start: 1;
+   grid-column-end: 5;
+}
+#box3{
+    grid-column-start:2 ;
+    grid-column-end: 4;
+}
